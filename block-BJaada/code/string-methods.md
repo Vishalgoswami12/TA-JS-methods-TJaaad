@@ -48,3 +48,9 @@ Example:
 16. `slice`
 17. `split`
 18. `substring`
+houseName.toUpperCase()///It converts into value in uppercase.
+'STARK'
+houseName.toLowerCase() /// It converts in lowercase.
+'starks'
+houseName.trim() It reduce space from both side
+'Starks'
