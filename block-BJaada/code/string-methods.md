@@ -52,5 +52,34 @@ houseName.toUpperCase()///It converts into value in uppercase.
 'STARK'
 houseName.toLowerCase() /// It converts in lowercase.
 'starks'
-houseName.trim() It reduce space from both side
-'Starks'
+let name = '  Arya Stark  '
+name.trim() It reduce space from both side
+'Arya Stark'
+name.trimEnd() it reduce space from end
+'  Arya Stark'
+name.trimStart()
+'Arya Stark   '
+name.concat("is a good developer") Its concat new word or variable.
+'Arya Stark  is a good developer'
+houseName.endsWith('') Its check the letter or words ends with.
+true
+name.includes('r') // Its check the value is it or not
+name.indexOf('S')//Its check the index
+7
+sentance.lastIndexOf('dog')//Its check the last indexofthat which index the word is
+37
+houseName.padEnd('20','.')//Its adjush padding at end and add charcter.
+'Starks..............'
+houseName.padStart('20','.')///Its adjust padding at start and character. 
+'..............Starks'
+houseName.repeat(4)///it repeat that how many times you have to repeat.
+'StarksStarksStarksStarks'
+houseName.replace('Starks','Arya')///It replace what do you whant to replace.
+'Arya
+sentance.slice(0,20)//it except two parameter first where to start and second where to end.
+'A quick brown fox ju'
+
+sentance.split(' ')///it split all in array.
+(9) ['A', 'quick', 'brown', 'fox', 'jumped', 'over', 'a', 'lazy', 'dog']
+sentance.substring(20,0)//it also work like slice but in this we can first the last index.
+'A quick brown fox ju'
