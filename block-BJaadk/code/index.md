@@ -10,7 +10,7 @@ function double(num) {
 }
 let doubleNum = numbers.forEach(double);
 ```
-![](./img/main.png)
+![Imge rel to q 1](./WhatsApp%20Image%202022-04-05%20at%209.53.28%20PM.jpeg)
 
 
 ```js
@@ -20,7 +20,7 @@ function double(num) {
 }
 let doubleNum = numbers.forEach(double);
 ```
-
+![return case](./image/image2.jpeg)
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function double(num) {
@@ -28,7 +28,7 @@ function double(num) {
 }
 let doubleNum = numbers.forEach(double);
 ```
-
+![return case](./image/image3.jpeg)
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function double(num) {
@@ -36,7 +36,7 @@ function double(num) {
 }
 let doubleNumbers = numbers.map(double);
 ```
-
+![return case in map](./image/image4.jpeg)
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function addTwo(num) {
@@ -44,7 +44,7 @@ function addTwo(num) {
 }
 let doubleNumbers = numbers.map(addTwo);
 ```
-
+![return case](./image/image5.jpeg)
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function addTwo(num) {
@@ -52,7 +52,7 @@ function addTwo(num) {
 }
 let doubleNumbers = numbers.map(addTwo);
 ```
-
+![return case](./image/image6.jpeg)
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function addTwo(num) {
@@ -60,7 +60,7 @@ function addTwo(num) {
 }
 let doubleNumbers = numbers.map(addTwo);
 ```
-
+![alert case](./image/image7.jpeg)
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function isOdd(num) {
@@ -68,7 +68,7 @@ function isOdd(num) {
 }
 let oddNumbers = numbers.filter(isOdd);
 ```
-
+![filter case](./image/image8.jpeg)
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function test(num) {
@@ -76,7 +76,7 @@ function test(num) {
 }
 let filteredNumbers = numbers.filter(test);
 ```
-
+![return case](./image/image9.jpeg)
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function test(num) {
@@ -84,7 +84,7 @@ function test(num) {
 }
 let filteredNumbers = numbers.filter(test);
 ```
-
+![return case](./image/image10.jpeg)
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function add(accumulator, currentValue) {
@@ -92,7 +92,7 @@ function add(accumulator, currentValue) {
 }
 let sum = numbers.reduce(add);
 ```
-
+![return case](./image/image11.jpeg)
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function add(accumulator, currentValue) {
@@ -100,3 +100,4 @@ function add(accumulator, currentValue) {
 }
 let sum = numbers.reduce(add);
 ```
+![console case](./image/image12.jpeg)
