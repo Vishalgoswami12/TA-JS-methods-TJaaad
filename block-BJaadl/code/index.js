@@ -72,7 +72,7 @@ function functionCompare(a,b){
 }
 numbers.sort(functionCompare);
 // - Does sort mutate the original array?
-yes sort mutate the original array.
+// yes sort mutate the original array.
 // - Find the sum of the numbers in the array.
 function add(acc,cv){
   return acc+cv;
@@ -100,9 +100,9 @@ let strings = [
 ];
 
 // - Write a function averageWordLength that receives an array of words2 and calculate the average length of the words.
-function averageWordLength(a,b){
-  let sumOf=a.length+b.length;
-  let average=sumOf/strings.length;
-  return average;
+function averageWordLength(words){
+return(words.map((w)=>w.length).reduce((acc,cv)=>{
+  return acc+cv;
+},0))/words.length
 }
 strings.reduce(averageWordLength);
