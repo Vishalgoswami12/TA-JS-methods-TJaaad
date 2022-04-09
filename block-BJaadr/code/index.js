@@ -2,18 +2,40 @@
 
 function countAllPeople() {
   // your code goes here
+  let totalPeople=0;
+  got.houses.forEach((house)=>{
+totalPeople=totalPeople+house.people.length
+  })
+  return totalPeople;
 }
 
 function peopleByHouses() {
   // your code goes here
+  let totalPeople=[];
+  got.houses.forEach((house)=>{
+    totalPeople[house.name]=house.people.length
+  })
+  return totalPeople;
 }
 
 function everyone() {
   // your code goes here
+  let final=[];
+got.houses.forEach((house)=>{
+  let nameHouse=house.people.map(
+    (person)=>person.name
+);
+final=final.concat(nameHouse)
+});
+return final;
 }
 
 function nameWithS() {
   // your code goes here
+  let allPeople=everyone();
+  return allPeople.filter((name)=>name.toLowerCase().includes('s')
+  );
+}
 }
 
 function nameWithA() {
